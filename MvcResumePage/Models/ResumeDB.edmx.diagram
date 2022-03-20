@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="37cd2d520243465a817ecf01a30bad77" Name="Diagram1">
+        <EntityTypeShape EntityType="ResumeDBModel.Contact" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ResumeDBModel.Education" Width="1.5" PointX="3" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ResumeDBModel.PortfolioCategory" Width="1.5" PointX="0.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ResumeDBModel.PortfolioItem" Width="1.5" PointX="3" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ResumeDBModel.Reference" Width="1.5" PointX="3" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ResumeDBModel.Skill" Width="1.5" PointX="3" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ResumeDBModel.SocialMediaInfo" Width="1.5" PointX="3" PointY="19.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ResumeDBModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ResumeDBModel.UserInfo" Width="1.5" PointX="0.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ResumeDBModel.WorkExperience" Width="1.5" PointX="3" PointY="22" IsExpanded="true" />
+        <AssociationConnector Association="ResumeDBModel.FK_Contact_UserInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ResumeDBModel.FK_Education_UserInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ResumeDBModel.FK_PortfolioItem_PortfolioCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="ResumeDBModel.FK_PortfolioItem_UserInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ResumeDBModel.FK_References_UserInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ResumeDBModel.FK_Skills_UserInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ResumeDBModel.FK_SocialMediaInfo_UserInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="ResumeDBModel.FK_WorkExperience_UserInfo" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
